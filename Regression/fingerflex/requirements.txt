@@ -1,0 +1,14 @@
+# Core (scripts)
+numpy>=1.24
+scipy>=1.10
+pandas>=1.5
+matplotlib>=3.7
+
+# Notebooks (prepare_data + training)
+mne>=1.5
+scikit-learn>=1.2
+plotly>=5.0
+torch>=2.0
+pytorch-lightning>=2.0
+pytorch-model-summary>=0.1
+wandb>=0.15
