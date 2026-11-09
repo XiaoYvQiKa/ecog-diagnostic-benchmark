@@ -1,0 +1,30 @@
+
+===== Subject 1  (n_ch=62) =====
+ ch(1b)   group   tr_kurt   RMS/med     te/tr  classif-flags
+     55  cross4   1177.69    10.223      0.09           KURT
+      5   extra      1.42     1.099      1.04           none
+     26   extra      0.40     0.960      0.99           none
+     29   extra      0.25     0.786      1.04           none
+     51   extra      1.07     1.493      0.97           none
+  cross-verified channels violating absolute rules: [55]
+  EXTRA channels violating absolute rules:         []  (0/4)
+
+===== Subject 2  (n_ch=48) =====
+ ch(1b)   group   tr_kurt   RMS/med     te/tr  classif-flags
+     21  cross4    164.51    35.880      1.04           KURT
+     38  cross4    310.53    23.667      0.76           KURT
+     23   extra      0.39     0.713      1.04           none
+     31   extra      0.43     0.748      1.04           none
+     32   extra      2.79     2.280      1.06           none
+  cross-verified channels violating absolute rules: [21, 38]
+  EXTRA channels violating absolute rules:         []  (0/3)
+
+===== Subject 3  (n_ch=64) =====
+ ch(1b)   group   tr_kurt   RMS/med     te/tr  classif-flags
+     50  cross4      0.03     1.486    252.63          RATIO
+     15   extra      0.41     0.676      0.98           none
+     23   extra      0.69     2.251      0.93           none
+     44   extra      0.15     0.707      0.98           none
+     45   extra      0.52     0.886      1.01           none
+  cross-verified channels violating absolute rules: [50]
+  EXTRA channels violating absolute rules:         []  (0/4)

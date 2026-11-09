@@ -1,0 +1,120 @@
+{
+  "method": "switching_linear_model",
+  "hyperparams": {
+    "tuned": {
+      "1": {
+        "tau_samples": 75,
+        "M": 30
+      },
+      "2": {
+        "tau_samples": 150,
+        "M": 30
+      },
+      "3": {
+        "tau_samples": 500,
+        "M": 30
+      }
+    },
+    "lambda_k": 1.0,
+    "n_select_channels": 15,
+    "lambda_s": 0.0
+  },
+  "subjects": {
+    "sub1": {
+      "baseline": [
+        0.21567205316714658,
+        0.17702055759855864,
+        0.17841419275253986,
+        0.2755925085873448,
+        0.15760183879526626
+      ],
+      "oracle": [
+        0.32890357973128787,
+        0.2749826405686044,
+        0.4346540588578667,
+        0.4270585713797766,
+        0.35142979709930805
+      ],
+      "estimated": [
+        0.11493318536529525,
+        0.11201867028623545,
+        0.13211452881353447,
+        0.2281027434542501,
+        0.10755186688798851
+      ],
+      "state_accuracy": 0.1341656242181636,
+      "fit_time_s": 124.79
+    },
+    "sub2": {
+      "baseline": [
+        0.272486483206313,
+        0.2729948305351225,
+        0.2146456827797838,
+        0.351698288383808,
+        0.19724188399635198
+      ],
+      "oracle": [
+        0.369444689978978,
+        0.30546256975894037,
+        0.4814423333411216,
+        0.6357032191972022,
+        0.39779590034605616
+      ],
+      "estimated": [
+        0.1762884133188475,
+        0.23986858143004272,
+        0.19791639207626455,
+        0.28833846586089074,
+        0.13411380403249706
+      ],
+      "state_accuracy": 0.1399349023535303,
+      "fit_time_s": 119.19
+    },
+    "sub3": {
+      "baseline": [
+        0.32139624418683976,
+        0.34337370583441024,
+        0.3770537001957908,
+        0.5606659816871443,
+        0.3671523284899773
+      ],
+      "oracle": [
+        0.5784702637176495,
+        0.46661099304555004,
+        0.1667078716819581,
+        0.43769653502814587,
+        0.6339809945896152
+      ],
+      "estimated": [
+        0.42047613123542643,
+        0.33991600838066244,
+        0.3922646163993296,
+        0.47088892490034634,
+        0.34829739385878006
+      ],
+      "state_accuracy": 0.4037839195979899,
+      "fit_time_s": 125.19
+    }
+  },
+  "runtime": {
+    "fit_time_s": {
+      "1": 124.79,
+      "2": 119.19,
+      "3": 125.19
+    },
+    "note": "fit_time_s = wall-clock fit_decoder time (group-lasso BCD state classifier + per-state ridge regression) on CPU; run-to-run variation is dominated by machine load, not algorithmic instability. Inference latency is measured separately by diagnostics/measure_inference_ms.py and reported in the paper appendix (Table D3 / G1). Inference latency re-measured 2026-10-10: full estimated pipeline 0.006 ms/sample, H_k regression alone 0.002-0.003 ms/sample.",
+    "inference_latency_ms": {
+      "full_estimated_pipeline": {
+        "sub1": 0.006,
+        "sub2": 0.006,
+        "sub3": 0.006
+      },
+      "Hk_regression_only": {
+        "sub1": 0.003,
+        "sub2": 0.002,
+        "sub3": 0.003
+      },
+      "note": "mean per-sample latency from diagnostics/measure_inference_ms.py (N=200 timed single-sample predictions, CPU); full pipeline = classify state + select H_k + predict"
+    }
+  }
+}
