@@ -1,0 +1,247 @@
+{
+  "alpha_bonferroni": 0.008333333333333333,
+  "n15": {
+    "regression": {
+      "pairwise": [
+        {
+          "comparison": "FingerFlex vs DTCNet",
+          "wilcoxon_p": 0.0001220703125,
+          "cohens_d": 1.2737810956697513,
+          "significant_after_bonferroni": true
+        },
+        {
+          "comparison": "FingerFlex vs Wiener",
+          "wilcoxon_p": 0.0001220703125,
+          "cohens_d": 1.1923845950829062,
+          "significant_after_bonferroni": true
+        },
+        {
+          "comparison": "FingerFlex vs SwitchingLM",
+          "wilcoxon_p": 6.103515625e-05,
+          "cohens_d": 3.71935313657844,
+          "significant_after_bonferroni": true
+        },
+        {
+          "comparison": "DTCNet vs Wiener",
+          "wilcoxon_p": 0.063720703125,
+          "cohens_d": 0.5289937873443197,
+          "significant_after_bonferroni": false
+        },
+        {
+          "comparison": "DTCNet vs SwitchingLM",
+          "wilcoxon_p": 6.103515625e-05,
+          "cohens_d": 3.020720896436462,
+          "significant_after_bonferroni": true
+        },
+        {
+          "comparison": "Wiener vs SwitchingLM",
+          "wilcoxon_p": 0.00030517578125,
+          "cohens_d": 1.2774170427529854,
+          "significant_after_bonferroni": true
+        }
+      ],
+      "friedman_cd": {
+        "friedman_chi2": 8.200000000000003,
+        "friedman_p": 0.04205418289496618,
+        "demsar_cd": 2.707963769657522,
+        "average_ranks": {
+          "FingerFlex": 1.0,
+          "DTCNet": 2.3333333333333335,
+          "Wiener": 2.6666666666666665,
+          "SwitchingLM": 4.0
+        },
+        "per_method_mean": {
+          "FingerFlex": 0.6458400000000001,
+          "DTCNet": 0.5317499351042607,
+          "Wiener": 0.4687636296491136,
+          "SwitchingLM": 0.24687264842002607
+        }
+      }
+    },
+    "classification": {
+      "pairwise": [
+        {
+          "comparison": "CSP+LDA vs Spectral+LGB",
+          "wilcoxon_p": 0.063720703125,
+          "cohens_d": 0.497552521864116,
+          "significant_after_bonferroni": false
+        },
+        {
+          "comparison": "CSP+LDA vs EEGNet",
+          "wilcoxon_p": 0.00537109375,
+          "cohens_d": 0.8880870599764042,
+          "significant_after_bonferroni": true
+        },
+        {
+          "comparison": "CSP+LDA vs EEG-Conformer",
+          "wilcoxon_p": 0.00018310546875,
+          "cohens_d": 1.2144712220775045,
+          "significant_after_bonferroni": true
+        },
+        {
+          "comparison": "Spectral+LGB vs EEGNet",
+          "wilcoxon_p": 0.063720703125,
+          "cohens_d": 0.7307220051841316,
+          "significant_after_bonferroni": false
+        },
+        {
+          "comparison": "Spectral+LGB vs EEG-Conformer",
+          "wilcoxon_p": 0.0006103515625,
+          "cohens_d": 1.0387296434689313,
+          "significant_after_bonferroni": true
+        },
+        {
+          "comparison": "EEGNet vs EEG-Conformer",
+          "wilcoxon_p": 0.67877197265625,
+          "cohens_d": 0.12631310099488063,
+          "significant_after_bonferroni": false
+        }
+      ],
+      "friedman_cd": {
+        "friedman_chi2": 5.400000000000006,
+        "friedman_p": 0.14474357941485547,
+        "demsar_cd": 2.707963769657522,
+        "average_ranks": {
+          "CSP+LDA": 1.3333333333333333,
+          "Spectral+LGB": 2.0,
+          "EEGNet": 3.3333333333333335,
+          "EEG-Conformer": 3.3333333333333335
+        },
+        "per_method_mean": {
+          "CSP+LDA": 0.3976626380313693,
+          "Spectral+LGB": 0.3616455757187332,
+          "EEGNet": 0.17700346959121618,
+          "EEG-Conformer": 0.16529107252757297
+        }
+      },
+      "pooled_trad_vs_deep": {
+        "p": 0.00152587890625,
+        "cohens_d": 0.9719317617204515,
+        "trad_mean": 0.3796541068750513,
+        "deep_mean": 0.17114727105939456
+      }
+    }
+  },
+  "n25": {
+    "regression": {
+      "pairwise": [
+        {
+          "comparison": "FingerFlex vs DTCNet",
+          "wilcoxon_p": 1.1920928955078125e-07,
+          "cohens_d": 1.330508275726721,
+          "significant_after_bonferroni": true
+        },
+        {
+          "comparison": "FingerFlex vs Wiener",
+          "wilcoxon_p": 8.344650268554688e-07,
+          "cohens_d": 1.1575880218197,
+          "significant_after_bonferroni": true
+        },
+        {
+          "comparison": "FingerFlex vs SwitchingLM",
+          "wilcoxon_p": 5.960464477539063e-08,
+          "cohens_d": 3.7516362881767042,
+          "significant_after_bonferroni": true
+        },
+        {
+          "comparison": "DTCNet vs Wiener",
+          "wilcoxon_p": 0.507703959941864,
+          "cohens_d": 0.16240799217936186,
+          "significant_after_bonferroni": false
+        },
+        {
+          "comparison": "DTCNet vs SwitchingLM",
+          "wilcoxon_p": 5.960464477539063e-08,
+          "cohens_d": 2.2364447559533134,
+          "significant_after_bonferroni": true
+        },
+        {
+          "comparison": "Wiener vs SwitchingLM",
+          "wilcoxon_p": 8.344650268554688e-07,
+          "cohens_d": 1.3972353223077703,
+          "significant_after_bonferroni": true
+        }
+      ],
+      "friedman_cd": {
+        "friedman_chi2": 13.560000000000002,
+        "friedman_p": 0.0035695719978437583,
+        "demsar_cd": 2.0975797164033283,
+        "average_ranks": {
+          "FingerFlex": 1.0,
+          "DTCNet": 2.6,
+          "Wiener": 2.4,
+          "SwitchingLM": 4.0
+        },
+        "per_method_mean": {
+          "FingerFlex": 0.5800319094115854,
+          "DTCNet": 0.43004968351303674,
+          "Wiener": 0.40955934608382416,
+          "SwitchingLM": 0.1641457912759305
+        }
+      }
+    },
+    "classification": {
+      "pairwise": [
+        {
+          "comparison": "CSP+LDA vs Spectral+LGB",
+          "wilcoxon_p": 0.006129205226898193,
+          "cohens_d": 0.6135400960639494,
+          "significant_after_bonferroni": true
+        },
+        {
+          "comparison": "CSP+LDA vs EEGNet",
+          "wilcoxon_p": 3.814697265625e-05,
+          "cohens_d": 0.973902771284161,
+          "significant_after_bonferroni": true
+        },
+        {
+          "comparison": "CSP+LDA vs EEG-Conformer",
+          "wilcoxon_p": 5.245208740234375e-06,
+          "cohens_d": 1.1692657227374053,
+          "significant_after_bonferroni": true
+        },
+        {
+          "comparison": "Spectral+LGB vs EEGNet",
+          "wilcoxon_p": 0.0027848482131958008,
+          "cohens_d": 0.7478530012232653,
+          "significant_after_bonferroni": true
+        },
+        {
+          "comparison": "Spectral+LGB vs EEG-Conformer",
+          "wilcoxon_p": 3.1948089599609375e-05,
+          "cohens_d": 0.9309261918470295,
+          "significant_after_bonferroni": true
+        },
+        {
+          "comparison": "EEGNet vs EEG-Conformer",
+          "wilcoxon_p": 0.6338268518447876,
+          "cohens_d": 0.08123084893465499,
+          "significant_after_bonferroni": false
+        }
+      ],
+      "friedman_cd": {
+        "friedman_chi2": 10.679999999999993,
+        "friedman_p": 0.0135882729582177,
+        "demsar_cd": 2.0975797164033283,
+        "average_ranks": {
+          "CSP+LDA": 1.2,
+          "Spectral+LGB": 2.0,
+          "EEGNet": 3.4,
+          "EEG-Conformer": 3.4
+        },
+        "per_method_mean": {
+          "CSP+LDA": 0.3807349886207887,
+          "Spectral+LGB": 0.333478493532337,
+          "EEGNet": 0.1740373962578447,
+          "EEG-Conformer": 0.16778784094327545
+        }
+      },
+      "pooled_trad_vs_deep": {
+        "p": 2.664327621459961e-05,
+        "cohens_d": 0.9830624621668729,
+        "trad_mean": 0.3571067410765628,
+        "deep_mean": 0.1709126186005601
+      }
+    }
+  }
+}

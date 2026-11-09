@@ -1,0 +1,128 @@
+[
+  {
+    "method": "switching_lm",
+    "subject": "jc",
+    "per_finger_estimated": {
+      "thumb": 0.12213697707167387,
+      "index": -0.023142716303371762,
+      "middle": 0.03768038875808743,
+      "ring": 0.17928022693241732,
+      "little": 0.016734995975537376
+    },
+    "per_finger_baseline": {
+      "thumb": 0.3636402888244709,
+      "index": 0.37381138123176694,
+      "middle": 0.22085227770486723,
+      "ring": 0.35616718453241736,
+      "little": 0.2899319670038004
+    },
+    "per_finger_oracle": {
+      "thumb": 0.6655006444252379,
+      "index": 0.48238372655773504,
+      "middle": 0.5381067904825844,
+      "ring": 0.5618259712905239,
+      "little": 0.4785537398383627
+    },
+    "per_finger_estimated_r2": {
+      "thumb": -0.03452519058390657,
+      "index": -0.27822380956065174,
+      "middle": -0.17506304376590776,
+      "ring": -0.16023699578419248,
+      "little": -0.12826417562426862
+    },
+    "per_finger_estimated_calibrated_r2": {
+      "thumb": 0.014917441168206591,
+      "index": 0.0005355853178982128,
+      "middle": 0.0014198116969605934,
+      "ring": 0.03214139976893904,
+      "little": 0.00028006009030123735
+    },
+    "avg_r_estimated": 0.067,
+    "official_r_estimated": 0.038,
+    "official_r2_estimated": -0.15401905488368367,
+    "official_gap_estimated": 0.15830727945202533,
+    "tier_baseline": {
+      "avg_r": 0.3209,
+      "official_r": 0.3121,
+      "mean_r2": -0.0768,
+      "mean_gap": 0.178
+    },
+    "tier_oracle": {
+      "avg_r": 0.5453,
+      "official_r": 0.5411,
+      "mean_r2": -0.0382,
+      "mean_gap": 0.3367
+    },
+    "tier_estimated": {
+      "avg_r": 0.0665,
+      "official_r": 0.0384,
+      "mean_r2": -0.154,
+      "mean_gap": 0.1583
+    },
+    "state_classification_accuracy": 0.553,
+    "seconds": 124.7
+  },
+  {
+    "method": "switching_lm",
+    "subject": "wc",
+    "per_finger_estimated": {
+      "thumb": -0.015121942827824673,
+      "index": 0.04678596171062731,
+      "middle": -0.005616363984812389,
+      "ring": 0.01326826569927857,
+      "little": 0.028549262566258785
+    },
+    "per_finger_baseline": {
+      "thumb": 0.0586364190139632,
+      "index": 0.19812440237784323,
+      "middle": 0.11037264153598361,
+      "ring": 0.12341838928741161,
+      "little": 0.05866870961404374
+    },
+    "per_finger_oracle": {
+      "thumb": 0.2229782779863446,
+      "index": 0.12359458472237952,
+      "middle": 0.2815100358781429,
+      "ring": 0.20604380362478783,
+      "little": 0.08532805740135492
+    },
+    "per_finger_estimated_r2": {
+      "thumb": -0.5703069711851911,
+      "index": -0.7781935612353486,
+      "middle": -0.3966229854093011,
+      "ring": -0.2666273626876663,
+      "little": -2.832031212948688
+    },
+    "per_finger_estimated_calibrated_r2": {
+      "thumb": 0.0002286731548880594,
+      "index": 0.002188926213188447,
+      "middle": 3.154354440981777e-05,
+      "ring": 0.0001760468746666577,
+      "little": 0.000815060393076994
+    },
+    "avg_r_estimated": 0.014,
+    "official_r_estimated": 0.014,
+    "official_r2_estimated": -1.1442886826946324,
+    "official_gap_estimated": 1.145104733521023,
+    "tier_baseline": {
+      "avg_r": 0.1098,
+      "official_r": 0.1065,
+      "mean_r2": -0.641,
+      "mean_gap": 0.6556
+    },
+    "tier_oracle": {
+      "avg_r": 0.1839,
+      "official_r": 0.1784,
+      "mean_r2": -2.5591,
+      "mean_gap": 2.597
+    },
+    "tier_estimated": {
+      "avg_r": 0.0136,
+      "official_r": 0.0136,
+      "mean_r2": -1.1443,
+      "mean_gap": 1.1451
+    },
+    "state_classification_accuracy": 0.199,
+    "seconds": 135.4
+  }
+]

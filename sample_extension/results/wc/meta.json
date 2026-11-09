@@ -1,0 +1,36 @@
+{
+  "subject": "wc",
+  "T_seconds": 610.04,
+  "n_ch_raw": 64,
+  "n_ch_keep": 64,
+  "bad_channels_1based": [],
+  "n_trials": 150,
+  "n_train_trials": 100,
+  "n_test_trials": 50,
+  "train_seconds": 400.0,
+  "test_seconds": 202.96,
+  "fs_ecog": 1000,
+  "fs_glove": 25,
+  "baseline_flex": [
+    742.5,
+    819.5,
+    1070.5,
+    1740.0,
+    1321.0
+  ],
+  "max_angles_relative": [
+    619.5,
+    989.5,
+    700.5,
+    1135.0,
+    624.0
+  ],
+  "label_threshold_ratio": 0.1,
+  "median_filter_kernel": 5,
+  "stim_agreement": {
+    "train": 0.7178583608048198,
+    "test": 0.7343822304488663
+  },
+  "ecog_unit": "amplifier units (1 unit = 0.0298 uV; downstream z-score absorbs gain)",
+  "label_source": "glove threshold (Yao & Shoaran 2019), cue used for trial boundary only"
+}

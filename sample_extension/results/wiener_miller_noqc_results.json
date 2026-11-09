@@ -1,0 +1,30 @@
+[
+  {
+    "method": "wiener_noqc",
+    "subject": "jc",
+    "per_finger_r": {
+      "thumb": 0.626439599848064,
+      "index": 0.3693561423161499,
+      "middle": 0.3969939878087183,
+      "ring": 0.19244637105216286,
+      "little": 0.24180233183541405
+    },
+    "avg_r": 0.365,
+    "official_r": 0.409,
+    "seconds": 102.7
+  },
+  {
+    "method": "wiener_noqc",
+    "subject": "wc",
+    "per_finger_r": {
+      "thumb": 0.3826760292085085,
+      "index": 0.5759228300701593,
+      "middle": 0.003998134711935056,
+      "ring": 0.18152194419957446,
+      "little": 0.07680673402745386
+    },
+    "avg_r": 0.244,
+    "official_r": 0.26,
+    "seconds": 100.3
+  }
+]
