@@ -1,0 +1,62 @@
+{
+  "sub1": {
+    "subject": "sub1",
+    "seed": 42,
+    "n_ch": 61,
+    "n_train": 284,
+    "n_test": 200,
+    "device": "cuda",
+    "eegnet": {
+      "train_s": 13.2,
+      "train_min": 0.22,
+      "infer_ms": 0.442,
+      "n_params": 5014
+    },
+    "eegconformer": {
+      "train_s": 40.42,
+      "train_min": 0.67,
+      "infer_ms": 4.215,
+      "n_params": 341038
+    }
+  },
+  "sub2": {
+    "subject": "sub2",
+    "seed": 42,
+    "n_ch": 46,
+    "n_train": 221,
+    "n_test": 200,
+    "device": "cuda",
+    "eegnet": {
+      "train_s": 7.05,
+      "train_min": 0.12,
+      "infer_ms": 0.463,
+      "n_params": 4774
+    },
+    "eegconformer": {
+      "train_s": 24.88,
+      "train_min": 0.41,
+      "infer_ms": 4.261,
+      "n_params": 317038
+    }
+  },
+  "sub3": {
+    "subject": "sub3",
+    "seed": 42,
+    "n_ch": 63,
+    "n_train": 151,
+    "n_test": 200,
+    "device": "cuda",
+    "eegnet": {
+      "train_s": 7.3,
+      "train_min": 0.12,
+      "infer_ms": 0.446,
+      "n_params": 5046
+    },
+    "eegconformer": {
+      "train_s": 23.16,
+      "train_min": 0.39,
+      "infer_ms": 4.282,
+      "n_params": 344238
+    }
+  }
+}
